@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 	    features = "src/test/java/features",
 	    glue = {"stepDefinitions"},
-	    tags = "@CRM_create_product",
+	    tags = "@CRM_counting_dashlets",
 	    plugin = {"html: test-reports"},
 	    strict = true
 	    	)
